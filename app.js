@@ -3,7 +3,7 @@
 //let paragrafo =  document.querySelector('p');
 //paragrafo.innerHTML = 'Escolha um número secreto entre 0 e 10.';
 let listadenumerossorteados = [];
-let numeroLimite =50; 
+let numeroLimite =30; 
 let numerosecreto = gerarnumeroaleatorio();
 let tentativas = 1;
 exibirMensagemInicial();    
@@ -14,7 +14,7 @@ function ExibirTextoNaTela(tag, texto) {
 }
 function exibirMensagemInicial () {
 ExibirTextoNaTela('h1', 'Número Secreto');
-ExibirTextoNaTela('p', 'Escolha um número secreto entre 0 e ' + numeroLimite + '.');
+ExibirTextoNaTela('p', 'Escolha um número secreto entre 1 e ' + numeroLimite + '.');
 }
 function verificarChute () { 
     let chute = document.querySelector('input').value;
