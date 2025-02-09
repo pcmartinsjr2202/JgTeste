@@ -3,7 +3,7 @@
 //let paragrafo =  document.querySelector('p');
 //paragrafo.innerHTML = 'Escolha um número secreto entre 0 e 10.';
 let listadenumerossorteados = [];
-let numeroLimite =50; 
+let numeroLimite =70; 
 let numerosecreto = gerarnumeroaleatorio();
 let tentativas = 1;
 exibirMensagemInicial();    
