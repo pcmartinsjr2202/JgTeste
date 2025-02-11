@@ -103,7 +103,7 @@ button {
 
 .texto__paragrafo {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 button:disabled {

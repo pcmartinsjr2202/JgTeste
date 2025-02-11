@@ -19,7 +19,7 @@ ExibirTextoNaTela('p', 'Descubra o número secreto entre 1 e ' + numeroLimite + 
 function verificarChute () { 
     let chute = document.querySelector('input').value;
        if(chute==numerosecreto) {
-           ExibirTextoNaTela('h1','Parabéns! Você acertou! ;👍)');
+           ExibirTextoNaTela('h1','Parabéns! Você acertou! 👍');
            let palavraTentativas = tentativas > 1 ? ' tentativas' : ' tentativa';
            let mensagemTentativas = 'Parabéns! Você acertou com ' + tentativas +  palavraTentativas + '.'; 
            ExibirTextoNaTela('p', mensagemTentativas);
