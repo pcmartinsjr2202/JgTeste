@@ -14,7 +14,7 @@ function ExibirTextoNaTela(tag, texto) {
 }
 function exibirMensagemInicial () {
 ExibirTextoNaTela('h1', 'Número Secreto');
-ExibirTextoNaTela('p', 'Escolha um número secreto entre 0 e ' + numeroLimite + '.');
+ExibirTextoNaTela('p', 'Descubra o número secreto entre 0 e ' + numeroLimite + '.');
 }
 function verificarChute () { 
     let chute = document.querySelector('input').value;
